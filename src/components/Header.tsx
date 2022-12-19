@@ -1,14 +1,12 @@
-import React from "react";
-import Image from "next/image";
+import Navbar from './Navbar'
 
-import NavBar from "./NavBar";
-
-export default function Header() {
+export default function Header()
+{
     return (
-        <header className="container">
-            <NavBar />
+        <header className='container'>
+            <Navbar />
             <div className="header flex light-bg">
-                <Image src="/images/jonathan-ortigueras.png" width={463} height={513} alt="Jonathan Ortigueras"  /> 
+                <img src="/src/assets/images/jonathan-ortigueras.png" width={463} height={513} alt="Jonathan Ortigueras" />
                 <div>
                     <button>Senior Software Engineer</button>
                     <h1 className="white">Talk is cheap.</h1>

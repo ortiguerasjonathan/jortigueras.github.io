@@ -1,20 +1,16 @@
-import React from "react";
-import Link from "next/link";
-
-export default function NavBar() {
-
+export default function Navbar() {
     return (
         <nav className="flex light-bg justify-space">
             <div className="logo white">
-                <Link href="/">Jonathan Ortigueras</Link>
+                <a href="/">Jonathan Ortigueras</a>
             </div>
 
             <ul className="flex white">
                 <li className="green">
-                    <Link href="/">{"< Home />"}</Link>
+                    <a href="/">{"< Home />"}</a>
                 </li>
                 <li>
-                    <Link href="/#about">About Me.</Link>
+                    <a href="/#about">About Me.</a>
                 </li>
             </ul>
         </nav>

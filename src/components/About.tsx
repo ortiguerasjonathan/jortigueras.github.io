@@ -1,6 +1,3 @@
-import React from "react";
-import Image, { StaticImageData } from "next/image";
-
 export default function About() {
     return (
         <section id="about" className="dark-bg container">
@@ -8,17 +5,17 @@ export default function About() {
                 <div className="flex-full">
                     <AboutCard
                         title="UX/UI Design"
-                        icon="/icons/design.svg"
+                        icon="/src/assets/images/icons/design.svg"
                         description="I create design  products with unique ideas."
                         projects={7} />
                     <AboutCard
                         title="Website Development"
-                        icon="/icons/code.svg"
+                        icon="/src/assets/images/icons/code.svg"
                         description="I develop website using wordpress."
                         projects={50} />
                     <AboutCard
                         title="Web-App Programming"
-                        icon="/icons/code.svg"
+                        icon="/src/assets/images/icons/code.svg"
                         description="I develop cross-platform Web applications."
                         projects={18} />
                 </div>
@@ -36,7 +33,7 @@ export default function About() {
 
 type Props = {
     title: string,
-    icon: string | StaticImageData,
+    icon: string,
     description: string,
     projects: number
 }
@@ -46,7 +43,7 @@ function AboutCard ({title, icon, description, projects} : Props) {
         <div className="light-bg about-card">
             <div className="flex justify-space">
                 <h3 className="green">{title}</h3>
-                <Image src={icon} width={28} height={28} alt={title} />
+                <img src={icon} width={28} height={28} alt={title} />
             </div>
             <p className="white">{description}</p>
             <span className="gray">{projects.toString()} projects</span>

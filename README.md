@@ -1,37 +1,108 @@
-## Welcome to GitHub Pages
+# Developer Portfolio
 
-You can use the [editor on GitHub](https://github.com/Jones21/jortigueras.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+![licence](https://img.shields.io/badge/licence-MIT-blue)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Developer Portfolio is a web template made for developers to present themselves based on NextJS.
 
-### Markdown
+![Developer Protfolio](https://user-images.githubusercontent.com/32510139/196662875-44970df4-d748-4a76-8a5f-ec2f4f0eb0e9.png)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Table of Contents
 
-```markdown
-Syntax highlighted code block
+- [Demo](#demo)
+- [Tech Stack](#tech-stack)
+- [Quick Start](#quick-start)
+- [Run Locally](#run-locally)
+- [Deployment](#deployment)
+- [File Structure](#file-structure)
+- [Author](#author)
+- [License](#license)
 
-# Header 1
-## Header 2
-### Header 3
+## Demo
 
-- Bulleted
-- List
+[Developer Portfolio demo link](https://developer-portfolio-gules.vercel.app/)
 
-1. Numbered
-2. List
+## Tech Stack
 
-**Bold** and _Italic_ and `Code` text
+**Frontend:** HTML5 / CSS3 / ReactJS / NextJS
 
-[Link](url) and ![Image](src)
+## Quick start
+
+Clone the repo
+
+```bash
+  git clone https://github.com/blaiti/Developer-Portfolio.git
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Install Developer Portfolio with npm
 
-### Jekyll Themes
+```bash
+  cd Developer-Portfolio
+  npm install
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Jones21/jortigueras.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Run Locally
 
-### Support or Contact
+To run locally, run the following command
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+```bash
+  npm run dev
+```
+
+## Deployment
+
+To create a production build
+
+```bash
+  npm run build
+```
+
+## File Structure
+
+Within the download you'll find the following directories and files:
+
+```bash
+Developer-Portfolio
+.
+├── package.json
+├── package_lock.json
+├── tsconfig.json
+├── next-env.d.ts
+├── next.config.js
+├── components
+│   ├── About.tsx
+│   ├── Footer.tsx
+│   ├── Header.tsx
+│   └── NavBar.tsx
+├── pages
+│   ├── _app.tsx
+│   └── index.tsx
+├── public
+│   ├── favicon.ico
+│   ├── icons
+│   │   ├── code.svg
+│   │   ├── design.svg
+│   │   ├── facebook.svg
+│   │   ├── github.svg
+│   │   ├── instagram.svg
+│   │   ├── linkedin.svg
+│   │   ├── phone.svg
+│   │   └── youtube.svg
+│   └── images
+│       ├── blaiti.png
+│       └── partners
+│           ├── artisty.png
+│           ├── directy.png
+│           ├── khedma-lik.png
+│           ├── wallety.png
+│           └── telefy.png
+└── styles
+    └── global.css
+```
+
+## Author
+
+[@blaiti](https://github.com/blaiti)
+
+## License
+
+[MIT](https://github.com/blaiti/Chaty/blob/main/LICENSE)
